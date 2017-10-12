@@ -40,6 +40,3 @@ def normal_time_stamp(DATE):
         normal_time_stamp = ((int(DATE - int(DATE / 100) * 100) + 2000))*10000+(int((DATE - int(DATE / 10000) * 10000) / 100))*100+int(DATE / 10000)
 
     return normal_time_stamp
-
-    pass
-    pass
